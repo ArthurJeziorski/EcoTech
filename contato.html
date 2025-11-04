@@ -1,42 +1,44 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contato</title>
+    <title>EcoTech - Contato</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <head>
-        <div class="nav">
+    <header>
+        <div class="titulo">
             <h1>EcoTech</h1>
-
-            <div class="nav-item"><a href="./index.html">Ínicio</a></div>
-            <div class="nav-item"><a href="./produtos.html">Produtos</a></div>
-            <div class="nav-item"><a href="./contato.html">Contato</a></div>
+            <nav>
+                <a href="index.html">Início</a>
+                <a href="produto.html">Produtos</a>
+                <a href="contato.html">Contato</a>
+            </nav>
         </div>
-    </head>
+    </header>
 
-    <main>
-        <section>
-            <div class="contact">
-                <form>
-                    <label for="uname">Nome:</label>
-                    <input type="text" name="uname" id="uname">
+    <section style="margin-top: 100px;">
+        <h2>Contato</h2>
+        <form>
+            <label>Nome</label>
+            <input type="text" required>
 
-                    <label for="umail">E-mail:</label>
-                    <input type="text" name="umail" id="umail">
+            <label>E-mail</label>
+            <input type="email" required>
 
-                    <label for="umsg">Mensagem:</label>
-                    <input type="text" name="umsg" id="umsg">
-                    
-                    <button type="submit">Enviar</button>
-                </form>
-            </div>
-        </section>
-    </main>
+            <label>Mensagem</label>
+            <textarea required></textarea>
 
-    <footer class="copy">
-        <p>© 2025 EcoTech – Todos os direitos reservados</p>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2025 EcoTech – Tecnologia Sustentável</p>
     </footer>
 </body>
+
 </html>
